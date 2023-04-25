@@ -7,3 +7,18 @@ font-family: 'Pacifico', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Righteous', cursive;
 */
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    background-image: url("../img/logo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
